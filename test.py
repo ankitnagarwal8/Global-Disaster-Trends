@@ -7,7 +7,7 @@ import matplotlib.pyplot as plt
 st.set_page_config(page_title="Disaster Data Dashboard", layout="wide")
 
 # Load data
-disaster = pd.read_csv("1900_2021_DISASTERS.xlsx - emdat data.csv")
+disaster = pd.read_csv("/content/1900_2021_DISASTERS.xlsx - emdat data.csv")
 
 # Display dataset
 st.write("## Disaster Data")
